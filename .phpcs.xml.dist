@@ -22,6 +22,14 @@
         <exclude-pattern>css/xml-sitemap-xsl\.php</exclude-pattern>
     </rule>
 
+    <!-- Verify that everything in the global namespace is prefixed with a plugin specific prefix.
+         Multiple valid prefixes can be provided as a comma-delimited list. -->
+    <rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+        <properties>
+            <property name="prefixes" type="array" value="wpseo,yoast"/>
+        </properties>
+    </rule>
+
     <rule ref="WordPress.WP.I18n">
         <properties>
             <property name="text_domain" value="wordpress-seo"/>

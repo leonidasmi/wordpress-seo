@@ -155,7 +155,7 @@ class WPSEO_Admin_Banner_Sidebar {
 				261,
 				152,
 				sprintf(
-				/* translators: %1$s expands to Yoast SEO Premium. */
+					/* translators: %1$s expands to Yoast SEO Premium. */
 					__( 'Let our experts set up your %1$s plugin!', 'wordpress-seo' ),
 					'Yoast SEO Premium'
 				)

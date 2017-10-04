@@ -17,7 +17,10 @@ codesniffer.xml export-ignore
 Gruntfile.js export-ignore
 package.json export-ignore
 phpunit.xml export-ignore
+.phpcs.xml export-ignore
 phpcs.xml export-ignore
+.phpcs.xml.dist export-ignore
+phpcs.xml.dist export-ignore
 phpmd.xml export-ignore
 CONTRIBUTING.md export-ignore
 README.md export-ignore

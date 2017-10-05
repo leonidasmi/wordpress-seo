@@ -736,13 +736,13 @@ class WPSEO_Metabox extends WPSEO_Meta {
 			}
 
 			// Special meta box sections such as the Snippet Preview, the Analysis, etc.
-			if ( in_array( $meta_field_def['type'], array(
-					'snippetpreview',
-					'pageanalysis',
-					'focuskeyword',
-					'metakeywords',
-				), true )
-			) {
+			$accepted_types = array(
+				'snippetpreview',
+				'pageanalysis',
+				'focuskeyword',
+				'metakeywords',
+			);
+			if ( in_array( $meta_field_def['type'], $accepted_types, true ) ) {
 				return $this->create_content_box( $content, $meta_field_def['type'], $help_button, $help_panel );
 			}
 

@@ -28,6 +28,9 @@
         <properties>
             <property name="prefixes" type="array" value="wpseo,yoast"/>
         </properties>
+
+        <!-- Valid usage: For testing purposes, some WP native constants/variables are being overruled. -->
+        <exclude-pattern>/tests/bootstrap\.php</exclude-pattern>
     </rule>
 
     <rule ref="WordPress.WP.I18n">

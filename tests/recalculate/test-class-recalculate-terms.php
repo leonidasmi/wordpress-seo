@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\Unittests
+ * @package WPSEO\Unittests\Recalculate
  */
 
 class WPSEO_Recalculate_Terms_Test extends WPSEO_UnitTestCase {

@@ -1,7 +1,7 @@
 <?php
 /**
-* @package WPSEO\Unittests
-*/
+ * @package WPSEO\Unittests\OnPage
+ */
 
 class WPSEO_OnPage_Double extends WPSEO_OnPage {
 

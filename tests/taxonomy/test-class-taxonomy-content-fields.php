@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\Unittests
+ * @package WPSEO\Unittests\Taxonomy
  */
 
 class WPSEO_Taxonomy_Content_Fields_Double extends WPSEO_Taxonomy_Content_Fields {

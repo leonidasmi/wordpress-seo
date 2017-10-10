@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\Unittests
+ * @package WPSEO\Unittests\Sitemaps
  */
 
 require_once WPSEO_TESTS_PATH . 'sitemaps/class-wpseo-sitemaps-double.php';

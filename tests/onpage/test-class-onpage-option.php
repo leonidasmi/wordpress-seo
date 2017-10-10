@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\Unittests
+ * @package WPSEO\Unittests\OnPage
  */
 
 class WPSEO_OnPage_Option_Test extends WPSEO_UnitTestCase {

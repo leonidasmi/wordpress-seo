@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Admin
+ */
 
 class WPSEO_Option_Tab_Test extends WPSEO_UnitTestCase {
 

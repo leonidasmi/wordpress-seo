@@ -1,8 +1,8 @@
 <?php
-
 /**
  * @package WPSEO\Unittests
  */
+
 class WPSEO_Frontend_Test extends WPSEO_UnitTestCase {
 
 	/**

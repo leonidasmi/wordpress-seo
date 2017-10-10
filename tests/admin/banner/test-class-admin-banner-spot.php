@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Admin\Banner
+ */
 
 class WPSEO_Admin_Banner_Renderer_Mock extends WPSEO_Admin_Banner_Renderer {
 

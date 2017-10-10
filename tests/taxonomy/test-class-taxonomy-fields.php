@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Taxonomy
+ */
 
 class WPSEO_Taxonomy_Fields_Double extends WPSEO_Taxonomy_Fields {
 

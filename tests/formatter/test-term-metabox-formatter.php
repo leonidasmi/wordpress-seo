@@ -1,8 +1,8 @@
 <?php
-
 /**
  * @package WPSEO\Unittests\Formatter
  */
+
 class WPSEO_Term_Metabox_Formatter_Test extends WPSEO_UnitTestCase {
 
 	/**

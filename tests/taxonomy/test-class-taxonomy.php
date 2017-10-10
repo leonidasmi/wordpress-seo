@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Taxonomy
+ */
 
 class WPSEO_Taxonomy_Test extends PHPUnit_Framework_TestCase {
 

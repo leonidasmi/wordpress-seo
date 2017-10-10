@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\Unittests
+ * @package WPSEO\Unittests\Recalculate
  */
 
 require_once WPSEO_TESTS_PATH . 'recalculate/class-recalculate-posts-double.php';

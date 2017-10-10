@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WPSEO\UnitTests
+ * @package WPSEO\UnitTests\ConfigUI\Fields
  */
 
 /**

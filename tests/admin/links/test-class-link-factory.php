@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Admin\Links
+ */
 
 class WPSEO_Link_Factory_Test extends WPSEO_UnitTestCase {
 

@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Sitemaps
+ */
 
 /**
  * Exposes protected defaults from WPSEO_Option_XML class

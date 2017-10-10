@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package WPSEO\Unittests\Admin
+ */
 
 require_once WPSEO_TESTS_PATH . 'admin/test-class-wpseo-plugin-availability-double.php';
 

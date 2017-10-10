@@ -3,6 +3,7 @@
  * @package WPSEO\Unittests\Sitemaps
  */
 
+// Include Helper class.
 require_once WPSEO_TESTS_PATH . 'sitemaps/class-wpseo-sitemaps-double.php';
 
 /**

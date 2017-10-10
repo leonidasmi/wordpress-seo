@@ -3,6 +3,7 @@
  * @package WPSEO\Unittests\Admin
  */
 
+// Include Helper class.
 require_once WPSEO_TESTS_PATH . 'admin/test-class-wpseo-plugin-availability-double.php';
 
 /**

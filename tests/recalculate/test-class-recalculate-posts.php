@@ -3,8 +3,8 @@
  * @package WPSEO\Unittests\Recalculate
  */
 
+// Include Helper class.
 require_once WPSEO_TESTS_PATH . 'recalculate/class-recalculate-posts-double.php';
-
 
 /**
  * Unit Test Class.

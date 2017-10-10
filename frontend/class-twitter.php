@@ -125,7 +125,7 @@ class WPSEO_Twitter {
 			'summary_large_image',
 			'app',
 			'player',
-		) )
+		), true )
 		) {
 			$this->type = 'summary';
 		}

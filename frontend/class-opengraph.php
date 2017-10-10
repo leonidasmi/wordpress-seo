@@ -506,9 +506,9 @@ class WPSEO_OpenGraph {
 		);
 
 		// Check to see if the locale is a valid FB one, if not, use en_US as a fallback.
-		if ( ! in_array( $locale, $fb_valid_fb_locales ) ) {
+		if ( ! in_array( $locale, $fb_valid_fb_locales, true ) ) {
 			$locale = strtolower( substr( $locale, 0, 2 ) ) . '_' . strtoupper( substr( $locale, 0, 2 ) );
-			if ( ! in_array( $locale, $fb_valid_fb_locales ) ) {
+			if ( ! in_array( $locale, $fb_valid_fb_locales, true ) ) {
 				$locale = 'en_US';
 			}
 		}

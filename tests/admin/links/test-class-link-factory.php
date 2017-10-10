@@ -57,7 +57,7 @@ class WPSEO_Link_Factory_Test extends WPSEO_UnitTestCase {
 				$this->getLookUpMock( 2 ),
 				$this->getFilterMock( 'currentpage', true ),
 				'test',
-				array( new WPSEO_Link( 'test',  2,'internal' ) ),
+				array( new WPSEO_Link( 'test', 2,'internal' ) ),
 			),
 			array(
 				$this->getClassifierMock( 'internal' ),

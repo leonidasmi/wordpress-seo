@@ -577,7 +577,7 @@ class WPSEO_Frontend_Test extends WPSEO_UnitTestCase {
 		$_GET['replytocom'] = 123;
 
 		// The following call should redirect.
-		// @todo figure out a way to test this
+		// @todo Figure out a way to test this.
 		// $this->assertTrue( $c->replytocom_redirect() );
 
 		// Go to home / move away from singular page.
@@ -598,10 +598,13 @@ class WPSEO_Frontend_Test extends WPSEO_UnitTestCase {
 		$this->go_to( add_query_arg( array( 'robots' => 1 ), home_url( '/' ) ) );
 		$this->assertFalse( $c->clean_permalink() );
 
-		// Test requests to the sitemap.
-		// @todo get_query_var only returns 'known' query_vars.. 'sitemap' will always return an empty string
-		// $this->go_to( add_query_arg( array( 'sitemap' => 1 ), home_url() ) );
-		// $this->assertFalse( $c->clean_permalink() );
+		/*
+		 * Test requests to the sitemap.
+		 *
+		 * @todo get_query_var only returns 'known' query_vars.. 'sitemap' will always return an empty string.
+		 * $this->go_to( add_query_arg( array( 'sitemap' => 1 ), home_url() ) );
+		 * $this->assertFalse( $c->clean_permalink() );
+		 */
 
 		// @todo test actual function... good luck ;)
 	}

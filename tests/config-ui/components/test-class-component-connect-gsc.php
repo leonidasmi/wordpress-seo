@@ -12,6 +12,9 @@ class WPSEO_Config_Component_Connect_Google_Search_Console_Mock extends WPSEO_Co
 	/** @var WPSEO_UnitTestCase */
 	protected $test;
 
+	/**
+	 * WPSEO_Config_Component_Connect_Google_Search_Console_Mock constructor.
+	 */
 	public function __construct( $test ) {
 		$this->test = $test;
 
@@ -55,6 +58,11 @@ class WPSEO_Config_Component_Connect_Google_Search_Console_Mock extends WPSEO_Co
 		return $this->mapping;
 	}
 
+	/**
+	 * Get a mocked profile.
+	 *
+	 * @return string
+	 */
 	public function get_profile() {
 		return $this->profile;
 	}
@@ -63,6 +71,9 @@ class WPSEO_Config_Component_Connect_Google_Search_Console_Mock extends WPSEO_Co
 		$this->profile = $profile;
 	}
 
+	/**
+	 * Mock reloading the GSC issues.
+	 */
 	public function reload_issues() {
 		$this->test->stub_call_register( 'reload_issues' );
 	}

@@ -137,8 +137,7 @@ class WPSEO_Frontend_Robots_Test extends WPSEO_UnitTestCase {
 		$this->assertEquals( 'noindex,follow', self::$class_instance->robots() );
 
 		// Clean-up.
-//		self::$class_instance->options['noindex-post'] = false;
-
+		// self::$class_instance->options['noindex-post'] = false;
 	}
 
 

@@ -2,7 +2,7 @@
 
 class WPSEO_Capability_Manager_Test extends WPSEO_Abstract_Capability_Manager {
 	/**
-	 * Adds the registerd capabilities to the system.
+	 * Adds the registered capabilities to the system.
 	 */
 	public function add() {
 

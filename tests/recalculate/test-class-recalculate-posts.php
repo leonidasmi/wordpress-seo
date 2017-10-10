@@ -200,7 +200,7 @@ class WPSEO_Recalculate_Posts_Test extends WPSEO_UnitTestCase {
 	}
 
 	/**
-	 * Provide filer dummy data with shortcode
+	 * Provide filler dummy data with shortcode
 	 *
 	 * @param $content
 	 * @param WP_Post|null $post

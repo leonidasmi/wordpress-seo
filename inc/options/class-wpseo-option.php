@@ -177,7 +177,7 @@ abstract class WPSEO_Option {
 // @codingStandardsIgnoreStart
 
 	/**
-	 * All concrete classes *must* contain the get_instance method
+	 * All concrete classes *must* contain the get_instance method.
 	 *
 	 * {@internal Unfortunately I can't define it as an abstract as it also *has* to be static...}}
 	 */
@@ -185,7 +185,7 @@ abstract class WPSEO_Option {
 
 
 	/**
-	 * Concrete classes *may* contain a translate_defaults method
+	 * Concrete classes *may* contain a translate_defaults method.
 	 */
 	// abstract public function translate_defaults();
 
@@ -199,7 +199,7 @@ abstract class WPSEO_Option {
 	/* *********** METHODS INFLUENCING get_option() *********** */
 
 	/**
-	 * Add filters to make sure that the option default is returned if the option is not set
+	 * Add filters to make sure that the option default is returned if the option is not set.
 	 *
 	 * @return  void
 	 */
@@ -212,8 +212,8 @@ abstract class WPSEO_Option {
 
 	// @codingStandardsIgnoreStart
 	/**
-	 * Abusing a filter to re-add our default filters
-	 * WP 3.7 specific as update_option action hook was in the wrong place temporarily
+	 * Abusing a filter to re-add our default filters.
+	 * WP 3.7 specific as update_option action hook was in the wrong place temporarily.
 	 *
 	 * @see http://core.trac.wordpress.org/ticket/25705
 	 *
@@ -234,7 +234,7 @@ abstract class WPSEO_Option {
 	}
 
 	/**
-	 * Validate webmaster tools & Pinterest verification strings
+	 * Validate webmaster tools & Pinterest verification strings.
 	 *
 	 * @param string $key   Key to check, by type of service.
 	 * @param array  $dirty Dirty data.
@@ -693,14 +693,14 @@ abstract class WPSEO_Option {
 
 
 	/**
-	 * Check whether a given array key conforms to one of the variable array key patterns for this option
+	 * Check whether a given array key conforms to one of the variable array key patterns for this option.
 	 *
-	 * @usedby validate_option() methods for options with variable array keys
+	 * @usedby validate_option() methods for options with variable array keys.
 	 *
 	 * @param  string $key Array key to check.
 	 *
 	 * @return string      Pattern if it conforms, original array key if it doesn't or if the option
-	 *              does not have variable array keys
+	 *              does not have variable array keys.
 	 */
 	protected function get_switch_key( $key ) {
 		if ( ! isset( $this->variable_array_key_patterns ) || ( ! is_array( $this->variable_array_key_patterns ) || $this->variable_array_key_patterns === array() ) ) {
@@ -722,7 +722,7 @@ abstract class WPSEO_Option {
 	// @codeCoverageIgnoreStart
 
 	/**
-	 * Emulate the WP native sanitize_text_field function in a %%variable%% safe way
+	 * Emulate the WP native sanitize_text_field function in a %%variable%% safe way.
 	 *
 	 * @see        https://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php for the original
 	 *
@@ -742,8 +742,8 @@ abstract class WPSEO_Option {
 
 
 	/**
-	 * Sanitize a url for saving to the database
-	 * Not to be confused with the old native WP function
+	 * Sanitize a url for saving to the database.
+	 * Not to be confused with the old native WP function.
 	 *
 	 * @deprecated 1.5.6.1
 	 * @deprecated use WPSEO_Utils::sanitize_url()
@@ -761,7 +761,7 @@ abstract class WPSEO_Option {
 	}
 
 	/**
-	 * Validate a value as boolean
+	 * Validate a value as boolean.
 	 *
 	 * @deprecated 1.5.6.1
 	 * @deprecated use WPSEO_Utils::validate_bool()

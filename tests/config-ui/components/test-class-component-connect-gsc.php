@@ -24,8 +24,8 @@ class WPSEO_Config_Component_Connect_Google_Search_Console_Mock extends WPSEO_Co
 	/**
 	 * Make function public
 	 *
-	 * @param array $current_data
-	 * @param array $data
+	 * @param array $current_data Saved data before changes.
+	 * @param array $data         Data after changes.
 	 */
 	public function handle_profile_change( $current_data, $data ) {
 		return parent::handle_profile_change( $current_data, $data );

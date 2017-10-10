@@ -39,6 +39,11 @@
         </properties>
     </rule>
 
+    <rule ref="PHPCompatibility.PHP.NewFunctionParameters.http_build_query_enc_typeFound">
+        <!-- Correct usage: Work around in place for pre-PHP 5.4. -->
+        <exclude-pattern>/inc/sitemaps/class-sitemap-renderer\.php</exclude-pattern>
+    </rule>
+
     <rule ref="WordPress.NamingConventions.ValidVariableName">
         <properties>
             <property name="customPropertiesWhitelist" type="array" value="pageUrl,responseCode,siteEntry,siteUrl,countPerTypes,urlCrawlErrorSample,buyUrl,infoUrl"/>

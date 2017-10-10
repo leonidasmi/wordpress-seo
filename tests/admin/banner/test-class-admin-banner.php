@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Admin\Banner
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Admin_Banner_Test extends WPSEO_UnitTestCase {
 
 	/**

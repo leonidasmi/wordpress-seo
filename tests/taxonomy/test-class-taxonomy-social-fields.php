@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Taxonomy
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Taxonomy_Social_Fields_Test extends WPSEO_UnitTestCase {
 
 	/**

@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Inc\Options
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Options_Test extends WPSEO_UnitTestCase {
 
 	public function setUp() {

@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Recalculate
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Recalculate_Scores_Ajax_Test extends WPSEO_UnitTestCase {
 
 	private $instance;

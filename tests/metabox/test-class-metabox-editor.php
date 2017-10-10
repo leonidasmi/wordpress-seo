@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Metabox
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Metabox_Editor_Test extends PHPUnit_Framework_TestCase {
 
 	/**

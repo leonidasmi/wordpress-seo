@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Rewrite_Test extends WPSEO_UnitTestCase {
 
 	/**

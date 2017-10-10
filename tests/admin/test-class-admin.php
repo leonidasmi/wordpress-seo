@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Admin
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Admin_Test extends WPSEO_UnitTestCase {
 
 	/**

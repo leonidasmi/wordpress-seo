@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\OnPage
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_OnPage_Option_Test extends WPSEO_UnitTestCase {
 
 	/**

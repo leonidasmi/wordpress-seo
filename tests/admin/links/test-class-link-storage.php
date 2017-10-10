@@ -3,6 +3,9 @@
  * @package WPSEO\Unittests\Admin\Links
  */
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Link_Storage_Test extends WPSEO_UnitTestCase {
 
 	/**

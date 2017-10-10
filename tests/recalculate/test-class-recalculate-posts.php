@@ -6,6 +6,9 @@
 require_once WPSEO_TESTS_PATH . 'recalculate/class-recalculate-posts-double.php';
 
 
+/**
+ * Unit Test Class.
+ */
 class WPSEO_Recalculate_Posts_Test extends WPSEO_UnitTestCase {
 
 	/**

@@ -576,9 +576,12 @@ class WPSEO_Frontend_Test extends WPSEO_UnitTestCase {
 
 		$_GET['replytocom'] = 123;
 
-		// The following call should redirect.
-		// @todo Figure out a way to test this.
-		// $this->assertTrue( $c->replytocom_redirect() );
+		/*
+		 * The following call should redirect.
+		 *
+		 * @todo Figure out a way to test this.
+		 * $this->assertTrue( $c->replytocom_redirect() );
+		 */
 
 		// Go to home / move away from singular page.
 		$this->go_to_home();
@@ -606,7 +609,7 @@ class WPSEO_Frontend_Test extends WPSEO_UnitTestCase {
 		 * $this->assertFalse( $c->clean_permalink() );
 		 */
 
-		// @todo test actual function... good luck ;)
+		// @todo Test actual function... good luck ;).
 	}
 
 	/**

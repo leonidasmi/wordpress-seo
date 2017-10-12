@@ -647,7 +647,7 @@ class WPSEO_Bulk_List_Table extends WP_List_Table {
 			'post_date',
 		);
 
-		if ( in_array( $orderby, $valid_column_names ) ) {
+		if ( in_array( $orderby, $valid_column_names, true ) ) {
 			return $orderby;
 		}
 
@@ -764,7 +764,7 @@ class WPSEO_Bulk_List_Table extends WP_List_Table {
 		$attributes = '';
 		$class = array( $column_name, "column-$column_name$classes" );
 
-		if ( in_array( $column_name, $hidden ) ) {
+		if ( in_array( $column_name, $hidden, true ) ) {
 			$class[] = 'hidden';
 		}
 

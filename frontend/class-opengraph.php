@@ -856,7 +856,7 @@ class WPSEO_OpenGraph_Image {
 			$img = $this->get_relative_path( $img );
 		}
 
-		if ( in_array( $img, $this->images ) ) {
+		if ( in_array( $img, $this->images, true ) ) {
 			return false;
 		}
 		array_push( $this->images, $img );

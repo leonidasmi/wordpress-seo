@@ -490,7 +490,7 @@ class WPSEO_Twitter {
 
 		$escaped_img = esc_url( $img );
 
-		if ( in_array( $escaped_img, $this->shown_images ) ) {
+		if ( in_array( $escaped_img, $this->shown_images, true ) ) {
 			return false;
 		}
 

@@ -50,4 +50,10 @@
         </properties>
     </rule>
 
+<!-- Free: currently would give 24 issues in the test suite. (warnings) -->
+<!-- And two in the plugin - see proposal commit -->
+    <rule ref="Generic.Files.OneClassPerFile">
+        <exclude-pattern>tests/*</exclude-pattern>
+    </rule>
+
 </ruleset>

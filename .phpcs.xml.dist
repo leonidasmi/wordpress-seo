@@ -15,7 +15,9 @@
 
     <rule ref="Yoast">
 <!-- TODO JRF: test with the below two enabled. -->
+<!-- Free: Currently gives 68 issues. -->
         <exclude name="WordPress.WP.PreparedSQL.NotPrepared"/><!-- TODO audit raw queries -->
+<!-- Free: Currently gives 4 issues, make this more specific. -->
         <exclude name="WordPress.Functions.DontExtract" /><!-- TODO audit usage & replace -->
     </rule>
 
@@ -46,6 +48,7 @@
     </rule>
 
     <rule ref="WordPress.NamingConventions.ValidVariableName">
+<!-- TODO: check errors (14) -->
         <properties>
             <property name="customPropertiesWhitelist" type="array" value="pageUrl,responseCode,siteEntry,siteUrl,countPerTypes,urlCrawlErrorSample"/>
         </properties>
@@ -58,6 +61,7 @@
 
 <!-- Free: currently would give 24 issues in the test suite. (warnings) -->
 <!-- And two in the plugin - see proposal commit -->
+
     <rule ref="Generic.Files.OneClassPerFile">
         <exclude-pattern>tests/*</exclude-pattern>
     </rule>

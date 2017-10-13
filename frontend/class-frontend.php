@@ -681,8 +681,6 @@ class WPSEO_Frontend {
 			$GLOBALS['wp_query'] = $old_wp_query;// WPCS: override ok.
 			unset( $old_wp_query );
 		}
-
-		return;
 	}
 
 
